@@ -1,0 +1,9 @@
+name: astrbot_plugin_phoebe_actions
+display_name: 菲比丘比行为表情包
+author: ifddis
+version: 0.1.0
+desc: 按QQ群消息中的哈气、乱拳、蛋糕等行为触发对应菲比表情包，使用Phoebe-Hub公开索引，不内置图片
+short_desc: 菲比丘比行为关键词发图
+support_platforms:
+  - aiocqhttp
+astrbot_version: ">=4.16,<5"

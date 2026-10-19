@@ -1,0 +1,6 @@
+{
+  "trigger_probability": {"description": "关键词匹配后发图概率（0~1）", "type": "float", "default": 0.45},
+  "cooldown_seconds": {"description": "每个群发图冷却秒数", "type": "int", "default": 45},
+  "group_allowlist": {"description": "启用的QQ群ID白名单（留空为全部群）", "type": "list", "default": [], "items": {"type": "string"}},
+  "behavior_ids": {"description": "按图库 meme id 精确映射行为，例如 haqi:[\"5\"]；留空按图片标题/标签匹配", "type": "object", "default": {"haqi": [], "punch": [], "cake": [], "angry": [], "hello": []}}
+}
